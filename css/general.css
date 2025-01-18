@@ -44,7 +44,6 @@ h1{
 }
 
 .container{
-  /* Esto debería haberlo puesto en el body*/
   max-width: 1920px;
   height: 800px;
   text-align: center;
@@ -83,7 +82,7 @@ h1{
 
 .info {
   margin: 5% 2%;
-  width: 30%; /* Ajusta el ancho */
+  width: 30%; 
   float: left; /* Mueve la info a la derecha */
   text-align: left;
 }

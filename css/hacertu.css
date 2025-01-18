@@ -1,17 +1,19 @@
 .informacion{
-  margin: 5%;
-  width: 38%;
+  margin: 0 auto;
+  width: 800px;
   height: 30%;
-  float: left;
   border: 1px solid black;
-  padding: 10px; /* Añade padding para espacio interno */
-  box-shadow: 3px 3px 8px rgba(0,0,0,0.3); /
+  padding: 10px; 
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.3); 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .recurso_imagen_hacertu{
-  width:45%;
+  width:300px;
   height: 200px;
-  margin:5%;
   float: left;  
   background-image: url('../imagenesfondo/cruzroja.png');
   background-size: contain; /* Ajusta la imagen para que cubra todo el div */
@@ -42,7 +44,7 @@ a:hover {
 
 
 .parrafo_imagen{
-  margin: 5%; 
-
+  width: 200px;
+  font-size: 15px;
 
 }
