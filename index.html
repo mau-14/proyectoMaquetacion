@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Desastres Naturales</title>
+    <link href="css/general.css" rel="stylesheet">
+  </head>
+  <body>
+    
+      <!--Uso la tabla para darle forma al navegador/header-->
+    <header>
+      <table>
+          <tr>
+          <td class="visible"><button>Logo</button></td>
+            <td></td>
+            <td></td>
+
+            <!--le damos un atributo al botón para que ejecute una pequeña acción en Js-->
+            <td class="visible"><button onclick="window.location.href='index.html';">Inicio</button></td>
+            <td></td>
+            <td class="visible"><button onclick="window.location.href='quepuedeshacertu.html';">¿Qué puedes hacer?</button></td>
+            <td></td>
+            <td class="visible"><button onclick="window.location.href='apuntate.html';">Apúntate</button></td>
+            <td></td>
+          </tr>
+      </table>
+    </header>
+    <main class="container">
+      <h1>MAYORES DESASTRES NATURALES</h1>
+      <h2>Debidos al cambio climático</h2>
+      <!-- Tabla de estadísticas, podría haber usado id en vez de class-->
+      <table class="stats">
+        <caption>Estadísticas de Desastres Naturales Relacionados con el Cambio Climático</caption>
+        <thead>
+            <tr>
+                <th>Desastre Natural</th>
+                <th>Impacto</th>
+                <th>Muertos Estimados</th>
+                <th>Costos Económicos (USD)</th>
+                <th>Año Más Reciente</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span class="desastres">Huracán Katrina</span></td>
+                <td>Inundaciones masivas</td>
+                <td>1.800</td>
+                <td>125.000.000.000</td>
+                <td>2005</td>
+            </tr>
+            <tr>
+                <td><span class="desastres">Terremoto y tsunami en Japón</span></td>
+                <td>Destrucción de infraestructura</td>
+                <td>20.000</td>
+                <td>235.000.000.000</td>
+                <td>2011</td>
+            </tr>
+            <tr>
+                <td><span class="desastres">Inundaciones en Pakistán</span></td>
+                <td>Pérdida de cultivos y desplazamiento de personas</td>
+                <td>2.000</td>
+                <td>43.000.000.000</td>
+                <td>2010</td>
+            </tr>
+            <tr>
+                <td><span class="desastres">Incendios forestales en Australia</span></td>
+                <td>Destrucción de hábitats</td>
+                <td>33</td>
+                <td>4.400.000.000</td>
+                <td>2019</td>
+            </tr>
+            <tr>
+                <td><span class="desastres">Sequía en el Cuerno de África</span></td>
+                <td>Hambruna y escasez de agua</td>
+                <td>250.000</td>
+                <td>6.000.000.000</td>
+                <td>2011</td>
+            </tr>
+        </tbody>
+    </table>      
+
+      <h2>Ejemplos</h2>
+      <div class="recurso_imagen_inicio"></div>
+      <div class="info">
+        <h3>Tsunami en Japón</h3>
+        <!--Listas anidadas-->
+        <ul>
+          <li>Provocó:
+            <ul>
+              <li>Destrucción del ecosistema marino:
+                <ul>
+                  <li>El tsunami arrasó con arrecifes de coral, hábitats de peces y otras formas de vida marina.</li>
+                  <li>La contaminación de las aguas debido a escombros y productos químicos afectó gravemente a la biodiversidad acuática.</li>
+                </ul>
+              </li>
+              <li>Crisis nuclear de Fukushima:
+                <ul>
+                  <li>El tsunami provocó la fusión de los reactores en la central nuclear de Fukushima Daiichi, generando una de las peores crisis nucleares desde Chernóbil.</li>
+                  <li>La radiación se extendió a amplias zonas, lo que llevó a la evacuación masiva y la contaminación de los suelos.</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>      
+
+    </main>
+    <footer>
+      <p>Mauricio Peña Domínguez</p>
+      <p>Escuela Virgen de Guadalupe</p>
+    </footer>  
+  </body>
+</html>
