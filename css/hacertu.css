@@ -1,7 +1,7 @@
 .informacion{
   margin: 0 auto;
-  width: 800px;
-  height: 400px;
+  width: 700px;
+  height: 300px;
   border: 1px solid black;
   padding: 10px; 
   box-shadow: 3px 3px 8px rgba(0,0,0,0.3); 
@@ -50,7 +50,7 @@ a:hover {
 
 .parrafo_imagen{
   width: 200px;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
 
 }
