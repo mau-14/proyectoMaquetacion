@@ -21,9 +21,11 @@ header{
   justify-content: space-between;
 }
 h1{
+  width: 450px;
   color:crimson;
   font-size: 3em;
   margin-left: 740px;
+  margin-right: 740px;
   margin-bottom: 100px;
 }
 
