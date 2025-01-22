@@ -70,7 +70,6 @@ button[type=submit],  button[type=reset]{
   border-radius: 30px;
   cursor: pointer;
   font-size: 13px;
-  margin: 1%;
 }
 
 input[type=checkbox]{
