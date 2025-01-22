@@ -23,6 +23,8 @@ header{
 h1{
   color:crimson;
   font-size: 3em;
+  margin-left: 740px;
+  margin-bottom: 100px;
 }
 
 #logo {
@@ -45,10 +47,7 @@ h1{
 }
 
 .container{
-  max-width: 1920px;
-  height: 700px;
-  text-align: center;
-  justify-content: space-evenly;
+  margin: 100px 0;
   display: flex;
   flex-direction: column;
 }
@@ -125,12 +124,12 @@ caption{
 
 
 footer {
+      width: 150px;
       color: black; 
-      margin-top: 50px;
-      text-align: center; /* Centra el texto */
-      padding: 10px;
+      position: absolute;
+      bottom: 10px;
+      right: 860px;
       font-size: 10px; /* Tamaño de fuente más pequeño */
-      width: 1920px; /* Ocupa todo el ancho */
       font-style: italic;
 }
 
