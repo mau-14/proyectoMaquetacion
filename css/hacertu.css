@@ -1,7 +1,7 @@
 .informacion{
   margin: 0 auto;
-  width: 700px;
-  height: 300px;
+  width: 678px;
+  height: 278px;
   border: 1px solid black;
   padding: 10px; 
   box-shadow: 3px 3px 8px rgba(0,0,0,0.3); 
@@ -14,7 +14,6 @@
 
 #tarjetas{
   display: flex;
-  align-items: center;
 }
 
 .recurso_imagen_hacertu{
