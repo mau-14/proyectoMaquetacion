@@ -23,7 +23,7 @@ header {
   padding: 1.04%; /* 20px / 1900px */
   height: fit-content;
   display: flex;
-  gap: 5.26%; /* 100px / 1900px */
+  gap: 6.26%; /* 117px / 1900px */
 }
 
 h1 {
@@ -35,7 +35,7 @@ h1 {
 }
 
 #logo {
-  flex: 1 0 300px; /* 300px / 1900 px*/
+  flex: 0 0 30%; /* 565px / 1900 px*/
   background-image: url('../imagenesfondo/logo_jgns_es-682931045.jpg');
   background-size: contain;
   background-position: center;
@@ -44,11 +44,10 @@ h1 {
 }
 
 .boton {
-  flex: 0 2 350px; /* 350px / 1900px */
-  padding: 0.526%; /* 10px / 1900px */
+  flex: 0 2 15.8%; /* 350px / 1900px */
+  padding: 0.52%;
   background-color: white;
   color: black;
-  border-radius: 0.26%; /* 5px / 1900px */
   cursor: pointer;
   text-align: center;
 }
