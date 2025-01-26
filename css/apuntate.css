@@ -70,13 +70,35 @@ input:focus, select:focus {
 button[type=submit],  button[type=reset]{
   background-color: whitesmoke;
   color: black;
-  padding: 10px;
-  width: 150px;
+  padding: 2.58%;
+  width: 38.65%;
   border-radius: 30px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 1em;
 }
 
 input[type=checkbox]{
   margin: 20px;
 }
+
+@media (max-width: 1495px) {
+
+  .formulario{
+    width: 330px;
+    font-size: 0.75em;
+    margin: 100px auto;
+
+  }
+  
+}
+@media (max-width: 1495px) {
+
+  .formulario{
+    width: 330px;
+    font-size: 0.75em;
+    margin-top: 100px;
+  }
+
+  
+}
+

@@ -66,3 +66,13 @@ footer {
   font-size: 1em; /* Tamaño de fuente base */
   padding: 0.52% 0; 
 }
+
+@media (max-width: 950px) {
+  .boton{
+
+    font-size: 0.75em;
+  }
+  h1{
+    font-size: 2em;
+  }
+}

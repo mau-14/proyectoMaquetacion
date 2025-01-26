@@ -46,11 +46,27 @@ a:hover {
   text-decoration: underline; /* Subraya el enlace al pasar el cursor */
 }
 
-
-
 .parrafo_imagen{
   width: 29.49%;
   font-size: 1em;
   text-align: center;
+
+}
+
+@media (max-width: 950px) {
+  #tarjetas{
+    flex-direction: column;
+    align-items: center;
+  }
+  .informacion{
+  width: 90.31%;
+  margin: 5%;
+}
+.parrafo_imagen{
+  width: 29.49%;
+  font-size:0.8em;
+  text-align: center;
+
+}
 
 }
