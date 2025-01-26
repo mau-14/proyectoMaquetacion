@@ -2,7 +2,6 @@
   font-family: monospace;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html {
@@ -22,10 +21,10 @@ body {
 
 header {
   width: 100%;
-  padding: 20px;
+  padding: 1.04%; /* 20px / 1920px */
   height: fit-content;
   display: flex;
-  justify-content: space-between;
+  gap: 5.2%; /* 100px / 1920px */
   align-items: center;
 }
 
@@ -34,108 +33,107 @@ h1 {
   color: crimson;
   font-size: 3em;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 5.2%; /* 100px / 1920px */
 }
 
 #logo {
-  flex: 1 0 auto;
+  flex: 1 0 15.625%; /* 300px / 1920px */
+  max-width: 26.04%; /* 500px / 1920px */
   background-image: url('../imagenesfondo/logo_jgns_es-682931045.jpg');
-  background-size:contain;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100px;
+  height: 100px; 
 }
 
 .boton {
-  flex: 1 1 auto;
-  margin: 5px;
-  padding: 10px;
+  flex: 0 1 18.23%; /* 350px / 1920px */
+  padding: 0.52%; /* 10px / 1920px */
   background-color: white;
   color: black;
-  border-radius: 5px;
+  border-radius: 0.26%; /* 5px / 1920px */
   cursor: pointer;
   text-align: center;
+}
+
+.container {
+  margin-top: 5.2%; /* 100px / 1920px */
 }
 
 .info h3 {
   font-size: 1.5em;
   color: black;
-  margin-bottom: 10px;
+  margin-bottom: 0.52%; /* 10px / 1920px */
 }
 
 .info ul {
-  list-style-type: square; /* Cambia el estilo de las viñetas */
-  
-  
+  list-style-type: square;
 }
 
 .info ul ul {
-  list-style-type: circle; /* Cambia el estilo de las viñetas en las listas anidadas */
+  list-style-type: circle;
 }
 
 .info li {
-  margin-bottom: 100px; /* Añade espacio entre los elementos */
+  margin-bottom: 5.2%; /* 100px / 1920px */
   color: black;
   font-size: 1em;
 }
 
 .info ul li ul li {
-  margin-bottom: 5px; /* Un poco menos de espacio en los subelementos */
-  
+  margin-bottom: 0.26%; /* 5px / 1920px */
 }
-
 
 .info {
   margin: 5% 2%;
-  width: 30%; 
-  float: left; /* Mueve la info a la derecha */
+  width: 30%;
+  float: left;
   text-align: left;
 }
 
 .recurso_imagen_inicio {
   background-image: url('../imagenesfondo/barcohundido.jpg');
-  background-size: cover; /* Ajusta la imagen para que cubra todo el div */
-  background-position: center; /* Centra la imagen en el div */
-  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   margin: 5% 10%;
-  width: 400px; /* Ajusta el ancho */
-  height: 400px; 
+  width: 20.83%; /* 400px / 1920px */
+  height: 37.04%; /* 400px / 1080px */
   float: left;
-  border: 1px solid black;
-  padding: 10px; /* Añade padding para espacio interno */
-  box-shadow: 3px 3px 8px rgba(0,0,0,0.3); /* Añade una sombra */
+  border: 0.052%; /* 1px / 1920px */
+  padding: 0.52%; /* 10px / 1920px */
+  box-shadow: 0.156% 0.156% 0.416% rgba(0, 0, 0, 0.3); /* 3px 3px 8px */
 }
+
 .stats {
-/* Estilo específico para la tabla stats */
   background-color: whitesmoke;
-  border-collapse: collapse; 
+  border-collapse: collapse;
   width: 50%;
-margin: 2% 25%;
+  margin: 2% 25%;
 }
 
-.stats td{
-  padding: 3%; /* Solo se aplica a las celdas de la tabla stats */
-  border: 1px solid black; 
+.stats td {
+  padding: 1.56%; /* 30px / 1920px */
+  border: 0.052%; /* 1px / 1920px */
 }
 
-caption{
+caption {
   margin: 5%;
 }
-.desastres{
+
+.desastres {
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 13px;
+  font-size: 0.68%; /* 13px / 1920px */
 }
 
-
-footer {
-      width: 150px;
-      color: black; 
-      position: absolute;
-      bottom: 10px;
-      right: 873px;
-      font-size: 10px; /* Tamaño de fuente más pequeño */
-      font-style: italic;
+footer {
+  width: 100%; /* Ocupa el 100% del ancho */
+  color: black;
+  position: fixed;
+  bottom: 0; 
+  text-align: center; /* Centra el texto */
+  font-style: italic;
+  font-size: 1em; /* Tamaño de fuente base */
+  padding: 10px 0; /* Espaciado interno */
 }
-
-

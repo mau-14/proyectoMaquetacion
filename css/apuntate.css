@@ -1,17 +1,17 @@
 .formulario{
-  margin: 0 760px;
-  width: 400px;
+  margin: 5.21% 39.58%;
+  width: 20.83%;
   border: 1px solid black;
   border-radius: 20px;
-  padding: 10px;
+  padding: 0.52%;
   box-shadow: 3px 3px 8px rgba(0,0,0,0.3); /* Añade una sombra */
 }
 
 fieldset{
-  width: 300px;
-  padding: 5px;
+  width: 80%;
+  padding: 1.3%;
   border-radius: 20px;
-  margin: 20px 40px;
+  margin: 5.3% 10.6%; 
 }
 
 legend{
@@ -20,9 +20,9 @@ legend{
 
 h2{
   color: crimson;
-  width: 150px;
+  width: 0.26%;
   font-size: 2.5em;
-  margin-left: 130px;
+  margin-left: 30%; /* regla de 3 con el ancho del formulario*/
 }
 label{
   font-weight: bold;
@@ -37,7 +37,7 @@ input, select{
   
 } 
 .datos{
-  margin:20px;
+  margin:7.666%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;

@@ -1,6 +1,5 @@
 .informacion{
   margin: 0 200px;
-  width: 678px;
   height: 278px;
   border: 1px solid black;
   padding: 10px; 
@@ -9,6 +8,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  flex: 0 1 700px;
 }
 
 
