@@ -14,18 +14,16 @@ html {
 
 body {
   width: 100%;
-  height: 100vh;
   margin: 0;
   padding: 0;
 }
 
 header {
-  width: 100%;
-  padding: 1.04%; /* 20px / 1920px */
+  width: 98,95%; /* 1900px / 1920 */
+  padding: 1.04%; /* 20px / 1900px */
   height: fit-content;
   display: flex;
-  gap: 5.2%; /* 100px / 1920px */
-  align-items: center;
+  gap: 5.26%; /* 100px / 1900px */
 }
 
 h1 {
@@ -37,8 +35,7 @@ h1 {
 }
 
 #logo {
-  flex: 1 0 15.625%; /* 300px / 1920px */
-  max-width: 26.04%; /* 500px / 1920px */
+  flex: 1 0 300px; /* 300px / 1900 px*/
   background-image: url('../imagenesfondo/logo_jgns_es-682931045.jpg');
   background-size: contain;
   background-position: center;
@@ -47,11 +44,11 @@ h1 {
 }
 
 .boton {
-  flex: 0 1 18.23%; /* 350px / 1920px */
-  padding: 0.52%; /* 10px / 1920px */
+  flex: 0 2 350px; /* 350px / 1900px */
+  padding: 0.526%; /* 10px / 1900px */
   background-color: white;
   color: black;
-  border-radius: 0.26%; /* 5px / 1920px */
+  border-radius: 0.26%; /* 5px / 1900px */
   cursor: pointer;
   text-align: center;
 }
@@ -60,80 +57,13 @@ h1 {
   margin-top: 5.2%; /* 100px / 1920px */
 }
 
-.info h3 {
-  font-size: 1.5em;
-  color: black;
-  margin-bottom: 0.52%; /* 10px / 1920px */
-}
-
-.info ul {
-  list-style-type: square;
-}
-
-.info ul ul {
-  list-style-type: circle;
-}
-
-.info li {
-  margin-bottom: 5.2%; /* 100px / 1920px */
-  color: black;
-  font-size: 1em;
-}
-
-.info ul li ul li {
-  margin-bottom: 0.26%; /* 5px / 1920px */
-}
-
-.info {
-  margin: 5% 2%;
-  width: 30%;
-  float: left;
-  text-align: left;
-}
-
-.recurso_imagen_inicio {
-  background-image: url('../imagenesfondo/barcohundido.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 5% 10%;
-  width: 20.83%; /* 400px / 1920px */
-  height: 37.04%; /* 400px / 1080px */
-  float: left;
-  border: 0.052%; /* 1px / 1920px */
-  padding: 0.52%; /* 10px / 1920px */
-  box-shadow: 0.156% 0.156% 0.416% rgba(0, 0, 0, 0.3); /* 3px 3px 8px */
-}
-
-.stats {
-  background-color: whitesmoke;
-  border-collapse: collapse;
-  width: 50%;
-  margin: 2% 25%;
-}
-
-.stats td {
-  padding: 1.56%; /* 30px / 1920px */
-  border: 0.052%; /* 1px / 1920px */
-}
-
-caption {
-  margin: 5%;
-}
-
-.desastres {
-  font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 0.68%; /* 13px / 1920px */
-}
-
 footer {
-  width: 100%; /* Ocupa el 100% del ancho */
+  width: 100%; 
   color: black;
   position: fixed;
   bottom: 0; 
   text-align: center; /* Centra el texto */
   font-style: italic;
   font-size: 1em; /* Tamaño de fuente base */
-  padding: 10px 0; /* Espaciado interno */
+  padding: 0.52% 0; 
 }
